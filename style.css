@@ -7,6 +7,7 @@ header {
   border-bottom: 1px solid black;
   width: 100%;
   height: 75px;
+  margin-bottom: 30px;
 }
 
 .logo {
@@ -43,31 +44,126 @@ nav span a {
 
 .content {
   display: flex;
-  flex-direction: row;
-  border: 1px solid purple;
+  margin: 0 auto 78px auto;
 }
 
 .column {
   margin-right: 32px;
+  display: flex;
+  flex-direction: column;
 }
 
 .column.large {
   display: flex;
   flex-direction: column;
   width: 630px;
-  border: 1px solid black;
 }
 
 .column.medium {
   display: flex;
   flex-direction: column;
   width: 300px;
-  border: 1px solid blue;
 }
 
 .column.small {
   display: flex;
   flex-direction: column;
   width: 240px;
-  border: 1px solid red;
+}
+
+.lead-story {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-text.lead {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  background-image: url(./assets/images/img-story-main.png);
+  align-items: center;
+}
+
+.text {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-text {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+}
+
+.image-text.cameras {
+  background-image: url(./assets/images/img-story-3.png);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.image-text.earth {
+  background-image: url(./assets/images/img-story-2.png);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.image-text.cats {
+  background-image: url(./assets/images/img-story-1.png);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.news-bites-title {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 41px;
+}
+
+.news-bites {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+  display: block;
+  padding: 11px 20px;
+}
+
+.news-bites-sec {
+  display: block;
+}
+
+.cookie {
+  height: 240px;
+}
+
+footer {
+  display: flex;
+  height: 325px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
 }
